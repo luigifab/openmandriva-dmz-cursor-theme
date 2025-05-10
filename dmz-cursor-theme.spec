@@ -2,7 +2,7 @@ Name:           dmz-cursor-theme
 Version:        0.4.5.2
 Release:        1
 Summary:        Style neutral cursors themes
-License:        CC-BY-SA
+License:        CC-BY-SA-3.0
 URL:            https://packages.debian.org/sid/dmz-cursor-theme
 Source0:        http://ftp.debian.org/debian/pool/main/d/dmz-cursor-theme/dmz-cursor-theme_%{version}.tar.xz
 Patch0:         dmz-cursor-theme-symbolic-links.patch
