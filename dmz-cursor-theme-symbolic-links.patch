@@ -1,0 +1,108 @@
+diff --git a/DMZ-Black/pngs/make.sh b/DMZ-Black/pngs/make.sh
+index c5bd90d..08eeccf 100755
+--- a/DMZ-Black/pngs/make.sh
++++ b/DMZ-Black/pngs/make.sh
+@@ -1,7 +1,7 @@
+ #!/bin/sh
+ mkdir ../xcursors
+ xcursorgen left_ptr_watch.in ../xcursors/left_ptr_watch
+-#xcursorgen hand1.in ../xcursors/hand1
++xcursorgen hand1.in ../xcursors/hand1
+ xcursorgen hand2.in ../xcursors/hand2
+ xcursorgen left_ptr.in ../xcursors/left_ptr
+ #xcursorgen center_ptr.in ../xcursors/center_ptr
+@@ -76,7 +76,6 @@ ln -sf    cross				diamond_cross
+ ln -sf    hand2				9d800788f1b08800ae810202380a0822
+ ln -sf    hand2				e29285e634086352946a0e7090d73106
+ ln -sf    hand2				hand
+-ln -sf    hand2				hand1
+ ln -sf    grabbing			fleur
+ ln -sf    question_arrow	d9ce0ab605698f320427677b458ad60b
+ ln -sf    question_arrow	5c6cd98b3f3ebcb1f9c7f1c204630408
+@@ -97,5 +96,32 @@ ln -sf    sb_v_double_arrow v_double_arrow
+ ln -sf    sb_v_double_arrow	2870a09082c103050810ffdffffe0204
+ ln -sf    v_double_arrow	00008160000006810000408080010102
+ #ln -sf    center_ptr		centre_ptr
++ln -sf    left_ptr          default
++ln -sf    hand              pointer
++ln -sf    left_ptr_watch    progress
++ln -sf    watch             wait
++ln -sf    xterm             text
++ln -sf    dnd-link          alias
++ln -sf    crossed_circle    not-allowed
++ln -sf    hand1             grab
++ln -sf    sb_h_double_arrow col-resize
++ln -sf    sb_v_double_arrow row-resize
++ln -sf    top_side          n-resize
++ln -sf    right_side        e-resize
++ln -sf    bottom_side       s-resize
++ln -sf    left_side         w-resize
++ln -sf    top_right_corner  ne-resize
++ln -sf    top_left_corner   nw-resize
++ln -sf    bottom_left_corner sw-resize
++ln -sf    bottom_right_corner se-resize
++ln -sf    sb_h_double_arrow ew-resize
++ln -sf    sb_v_double_arrow ns-resize
++ln -sf    fd_double_arrow   nesw-resize
++ln -sf    bd_double_arrow   nwse-resize
++ln -sf    bd_double_arrow   size_fdiag
++ln -sf    fd_double_arrow   size_bdiag
++ln -sf    sb_h_double_arrow size_hor
++ln -sf    sb_v_double_arrow size_ver
++ln -sf    fleur             size_all
+ 
+ #cp -RPv * /usr/share/icons/dmz-aa/cursors/
+diff --git a/DMZ-White/pngs/make.sh b/DMZ-White/pngs/make.sh
+index 882a398..80120cc 100755
+--- a/DMZ-White/pngs/make.sh
++++ b/DMZ-White/pngs/make.sh
+@@ -1,7 +1,7 @@
+ #!/bin/sh
+ mkdir ../xcursors
+ xcursorgen left_ptr_watch.in ../xcursors/left_ptr_watch
+-#xcursorgen hand1.in ../xcursors/hand1
++xcursorgen hand1.in ../xcursors/hand1
+ xcursorgen hand2.in ../xcursors/hand2
+ xcursorgen left_ptr.in ../xcursors/left_ptr
+ #xcursorgen center_ptr.in ../xcursors/center_ptr
+@@ -76,7 +76,6 @@ ln -sf    cross				diamond_cross
+ ln -sf    hand2				9d800788f1b08800ae810202380a0822
+ ln -sf    hand2				e29285e634086352946a0e7090d73106
+ ln -sf    hand2				hand
+-ln -sf    hand2				hand1
+ ln -sf    grabbing			fleur
+ ln -sf    question_arrow	d9ce0ab605698f320427677b458ad60b
+ ln -sf    question_arrow	5c6cd98b3f3ebcb1f9c7f1c204630408
+@@ -97,5 +96,32 @@ ln -sf    sb_v_double_arrow v_double_arrow
+ ln -sf    sb_v_double_arrow	2870a09082c103050810ffdffffe0204
+ ln -sf    v_double_arrow	00008160000006810000408080010102
+ #ln -sf    center_ptr		centre_ptr
++ln -sf    left_ptr          default
++ln -sf    hand              pointer
++ln -sf    left_ptr_watch    progress
++ln -sf    watch             wait
++ln -sf    xterm             text
++ln -sf    dnd-link          alias
++ln -sf    crossed_circle    not-allowed
++ln -sf    hand1             grab
++ln -sf    sb_h_double_arrow col-resize
++ln -sf    sb_v_double_arrow row-resize
++ln -sf    top_side          n-resize
++ln -sf    right_side        e-resize
++ln -sf    bottom_side       s-resize
++ln -sf    left_side         w-resize
++ln -sf    top_right_corner  ne-resize
++ln -sf    top_left_corner   nw-resize
++ln -sf    bottom_left_corner sw-resize
++ln -sf    bottom_right_corner se-resize
++ln -sf    sb_h_double_arrow ew-resize
++ln -sf    sb_v_double_arrow ns-resize
++ln -sf    fd_double_arrow   nesw-resize
++ln -sf    bd_double_arrow   nwse-resize
++ln -sf    bd_double_arrow   size_fdiag
++ln -sf    fd_double_arrow   size_bdiag
++ln -sf    sb_h_double_arrow size_hor
++ln -sf    sb_v_double_arrow size_ver
++ln -sf    fleur             size_all
+ 
+ #cp -RPv * /usr/share/icons/Vanilla-DMZ/cursors/

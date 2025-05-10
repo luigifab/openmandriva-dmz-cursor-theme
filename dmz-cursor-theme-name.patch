@@ -1,0 +1,39 @@
+diff --git a/DMZ-Black/index.theme b/DMZ-Black/index.theme
+index c5bd90d..08eeccf 100644
+--- a/DMZ-Black/index.theme
++++ b/DMZ-Black/index.theme
+@@ -16,7 +16,7 @@
+ Name[et]=DMZ (Must)
+ Name[eu]=DMZ (Beltza)
+ Name[fi]=DMZ (Musta)
+-Name[fr]=DMZ (Noir )
++Name[fr]=DMZ (Noir)
+ Name[ga]=DMZ (Dubh)
+ Name[gl]=DMZ (Negro)
+ Name[gu]=DMZ (કાળો)
+@@ -50,6 +50,5 @@
+ Name[uk]=DMZ (Чорний)
+ Name[vi]=DMZ (Đen)
+ Name[xh]=DMZ (Mnyama)
+-Name[yi]=DMZ ()
+ Name[zh_CN]=DMZ (黑色)
+ Name[zh_TW]=DMZ (黑)
+diff --git a/DMZ-White/index.theme b/DMZ-White/index.theme
+index c5bd90d..08eeccf 100644
+--- a/DMZ-White/index.theme
++++ b/DMZ-White/index.theme
+@@ -23,7 +23,6 @@
+ Name[he]=DMZ (לבן)
+ Name[hr]=DMZ (Bijela)
+ Name[hu]=DMZ (Fehér)
+-Name[id]=DMZ ()
+ Name[it]=DMZ (Bianco)
+ Name[ja]=DMZ (白)
+ Name[km]=DMZ (ស)
+@@ -50,6 +49,5 @@
+ Name[uk]=DMZ (Біле)
+ Name[vi]=DMZ (Trắng)
+ Name[xh]=DMZ (Mhlophe)
+-Name[yi]=DMZ ()
+ Name[zh_CN]=DMZ (白色)
+ Name[zh_TW]=DMZ (白色)
